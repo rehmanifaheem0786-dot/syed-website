@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed | Personal Portfolio</title>
+  <style>
+    :root {
+      --primary: #008080; /* teal */
+      --secondary: #f4fdfd;
+      --dark: #2c3e50;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0;
+      background: var(--secondary);
+      color: var(--dark);
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: var(--primary);
+    }
+    footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    button {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #006666;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header img {
+        width: 80px;
+        height: 80px;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+      section {
+        padding: 1.5rem;
+      }
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Syed Profile">
+    <h1>Syed</h1>
+    <p>Exploring AI + Healthcare | Student with Medical Background</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I’m Syed, blending my medical background with a passion for technology. I’m learning programming and exploring how artificial intelligence can transform healthcare.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>AI in Radiology — exploring image recognition for diagnostics</li>
+        <li>Healthcare Chatbots — assisting patients with basic queries</li>
+        <li>Biotech + Data Science — analyzing medical datasets</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:syed@example.com">syed@example.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/syed</a></p>
+      <button>Send a Message</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Syed | Designed with ❤️ and curiosity</p>
+  </footer>
+</body>
+</html>
